@@ -8,8 +8,19 @@ end)
 commands:Register("connect", function(playerid)
     local player = GetPlayer(playerid)
     if not player then return end
-
+    
     player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.dns")))
+end)
+
+commands:Register("reloadconfig", function(playerid)
+    if playerid == -1 then
+        config:Reload("cmds")
+        print(string.format(config:Fetch("cmds.success")))
+    else
+        local player = GetPlayer(playerid)
+        if not player then return end
+        player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.noaccess")))
+    end
 end)
 
 function GetPluginAuthor()
@@ -17,7 +28,7 @@ function GetPluginAuthor()
 end
 
 function GetPluginVersion()
-    return "1.0.0"
+    return "1.0.1"
 end
 
 function GetPluginName()
