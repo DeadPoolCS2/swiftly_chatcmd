@@ -5,12 +5,12 @@ commands:Register("discord", function(playerid)
     player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.discord")))
 end)
 
--- commands:Register("connect", function(playerid)
---     local player = GetPlayer(playerid)
---     if not player then return end
+commands:Register("connect", function(playerid)
+    local player = GetPlayer(playerid)
+    if not player then return end
 
---     player:SendMsg(MessageType.Chat, string.format(config:Fetch("connect.dns")))
--- end)
+    player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.dns")))
+end)
 
 function GetPluginAuthor()
     return "rol3x1337"
