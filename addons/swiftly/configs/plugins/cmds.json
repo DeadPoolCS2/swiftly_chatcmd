@@ -1,3 +1,4 @@
 {
-    "discord": "Join on our {BLUE}Discord: {DEFAULT}discord.gg/swiftlycs2"
+    "discord": "Join on our {BLUE}Discord: {DEFAULT}your discord server",
+    "dns": "{PURPLE}DNS: your dns"
 }
