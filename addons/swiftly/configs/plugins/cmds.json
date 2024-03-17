@@ -1,4 +1,6 @@
 {
     "discord": "Join on our {BLUE}Discord: {DEFAULT}your discord server",
-    "dns": "{PURPLE}DNS: your dns"
+    "dns": "{PURPLE}DNS: {WHITE}your dns",
+    "noaccess": "{RED}You do not have access to this command.",
+    "success": "You have successfully reloaded the config."
 }
