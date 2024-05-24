@@ -5,6 +5,20 @@ commands:Register("discord", function(playerid)
     player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.discord")))
 end)
 
+commands:Register("forum", function(playerid)
+    local player = GetPlayer(playerid)
+    if not player then return end
+
+    player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.forum")))
+end)
+
+commands:Register("steamgroup", function(playerid)
+    local player = GetPlayer(playerid)
+    if not player then return end
+
+    player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.steamgroup")))
+end)
+
 commands:Register("connect", function(playerid)
     local player = GetPlayer(playerid)
     if not player then return end
