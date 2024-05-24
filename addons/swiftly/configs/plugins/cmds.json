@@ -2,9 +2,7 @@
     "discord": "[{RED}TIPS{DEFAULT}] Join on our {BLUE}Discord: {GREEN}your discord server",
     "forum": "[{RED}TIPS{DEFAULT}] Visit on our {BLUE}Forum: {GREEN}your forum",
     "steamgroup": "[{RED}TIPS{DEFAULT}] Join on our {BLUE}Steam Group: {GREEN}your discord group",
-    "owner": "[{RED}TIPS{DEFAULT}] Server owner is {BLUE}DeadPool \n
-    [{RED}TIPS{DEFAULT}] Contact {BLUE}Steam: {GREEN}your steam link \n
-    [{RED}TIPS{DEFAULT}] Contact {BLUE}Discord: {GREEN}your discord name",
+    "owner": "[{RED}TIPS{DEFAULT}] Server owner is {BLUE}DeadPool \n[{RED}TIPS{DEFAULT}] Contact {BLUE}Steam: {GREEN}your steam link \n[{RED}TIPS{DEFAULT}] Contact {BLUE}Discord: {GREEN}your discord name",
     "dns": "[{RED}TIPS{DEFAULT}] Server {BLUE}DNS: {GREEN}your dns",
     "noaccess": "{RED}You do not have access to this command.",
     "success": "You have successfully reloaded the config."
