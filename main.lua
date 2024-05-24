@@ -19,6 +19,13 @@ commands:Register("steamgroup", function(playerid)
     player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.steamgroup")))
 end)
 
+commands:Register("owner", function(playerid)
+    local player = GetPlayer(playerid)
+    if not player then return end
+
+    player:SendMsg(MessageType.Chat, string.format(config:Fetch("cmds.owner")))
+end)
+
 commands:Register("connect", function(playerid)
     local player = GetPlayer(playerid)
     if not player then return end
