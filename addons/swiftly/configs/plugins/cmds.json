@@ -1,6 +1,8 @@
 {
-    "discord": "Join on our {BLUE}Discord: {DEFAULT}your discord server",
-    "dns": "{PURPLE}DNS: {WHITE}your dns",
+    "discord": "[{RED}TIPS{DEFAULT}] Join on our {BLUE}Discord: {GREEN}your discord server",
+    "forum": "[{RED}TIPS{DEFAULT}] Visit on our {BLUE}Forum: {GREEN}your forum",
+    "steamgroup": "[{RED}TIPS{DEFAULT}] Join on our {BLUE}Steam Group: {GREEN}your discord group",
+    "dns": "[{RED}TIPS{DEFAULT}] Server {BLUE}DNS: {GREEN}your dns",
     "noaccess": "{RED}You do not have access to this command.",
     "success": "You have successfully reloaded the config."
 }
